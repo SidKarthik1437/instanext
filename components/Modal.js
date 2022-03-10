@@ -11,7 +11,7 @@ import { ref, getDownloadURL, uploadString } from 'firebase/storage'
 import { useSession } from 'next-auth/react'
 import { Fragment, useRef, useState } from 'react'
 import { useRecoilState } from 'recoil'
-import { modalState } from '../atoms/ModalAtom'
+import { modalState } from '../atoms/modalAtom'
 import { db, storage } from '../firebase'
 
 export default function Modal() {
