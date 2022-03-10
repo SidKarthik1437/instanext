@@ -1,4 +1,8 @@
 {
+  "name": "Instagram",
+  "homepage": "http://sid.krew.co.in/instagram",
+ "version": "1.0.0",
+ "description": "Instagram using NextJss",
   "private": true,
   "scripts": {
     "dev": "next dev",
