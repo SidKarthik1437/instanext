@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { SessionProvider } from 'next-auth/react'
 import { RecoilRoot } from 'recoil'
+import React from 'react'
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   return (
@@ -12,5 +13,8 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
     </SessionProvider>
   )
 }
+// ignore in-browser next/js recoil warnings until its fixed.
+
 
 export default MyApp
+
